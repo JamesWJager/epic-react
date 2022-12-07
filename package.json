@@ -1,0 +1,31 @@
+{
+    "name": "@jamesjager/react-fundamentals",
+    "title": "Epic React ⚛",
+    "description": "The material for learning React fundamentals",
+    "author": "Kent C. Dodds <me@kentcdodds.com> (https://kentcdodds.com/)",
+    "version": "1.0.0",
+    "private": true,
+    "keywords": [],
+    "homepage": "http://react-fundamentals.netlify.app/",
+    "license": "GPL-3.0-only",
+    "main": "src/index.js",
+    "engines": {
+      "node": "14 || 16 || 18",
+      "npm": ">=8.16.0"
+    },
+    "scripts": {
+      "start:fundamentals": "cd react-fundamentals/ && npm start",
+      "init:reactHooks": "git clone https://github.com/kentcdodds/react-hooks.git && cd react-hooks/ && npm run setup --silent"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JamesWJager/epic-react"
+    },
+    "bugs": {
+      "url": "https://github.com/JamesWJager/epic-react/issues"
+    },
+    "msw": {
+      "workerDirectory": "public"
+    }
+  }
+  
