@@ -1,7 +1,8 @@
 # epic-react
 epic react course
 
-after init
+- create init and start scripts in package.json
+- run init command
 - cd into new folder created from init
 - git remote remove origin
 - create a new repository in github
