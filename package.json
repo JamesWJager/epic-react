@@ -16,8 +16,10 @@
     "scripts": {
       "start:fundamentals": "cd react-fundamentals/ && npm start",
       "start:hooks": "cd react-hooks/ && npm start",
+      "start:advancedHooks": "cd advanced-react-hooks/ && npm start",
       "init:reactFundamentals": "git clone https://github.com/kentcdodds/react-fundamentals.git && cd react-fundamentals/ && npm run setup --silent",
-      "init:reactHooks": "git clone https://github.com/kentcdodds/react-hooks.git && cd react-hooks/ && npm run setup --silent"
+      "init:reactHooks": "git clone https://github.com/kentcdodds/react-hooks.git && cd react-hooks/ && npm run setup --silent",
+      "init:reactAdvancedHooks": "git clone https://github.com/kentcdodds/advanced-react-hooks.git && cd react-hooks/ && npm run setup --silent"
     },
     "repository": {
       "type": "git",
